@@ -14,10 +14,10 @@ phases:
         - ng build --configuration production --aot
   post_build:
      commands:
-      - aws s3 cp dist s3://aejim-portafolio-front --recursive
+      - aws s3 cp dist/portafolio-angular/browser s3://aejim-portafolio-front --recursive
       - echo Build completed on `date`  
 artifacts:
     files:
         - '**/*'
-    base-directory: 'dist*'
+    base-directory: 'browser*'
     discard-paths: yes
