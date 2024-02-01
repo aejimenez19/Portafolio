@@ -11,9 +11,9 @@ phases:
   build:
     commands:
         - echo Build started 
-        - ng build
+        - ng build --configuration production --aot
 artifacts:
     files:
         - '**/*'
-    base-directory: 'dist/browser*'
+    base-directory: 'dist*'
     discard-paths: yes
