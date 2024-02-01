@@ -12,6 +12,10 @@ phases:
     commands:
         - echo Build started 
         - ng build --configuration production --aot
+  post_build:
+     commands:
+      - aws s3 cp dist s3://aejim-portafolio-front --recursive
+      - echo Build completed on `date`  
 artifacts:
     files:
         - '**/*'
