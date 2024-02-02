@@ -16,8 +16,8 @@ phases:
      commands:
       - aws s3 cp dist/portafolio-angular/browser s3://aejim-portafolio-front --recursive
       - echo Build completed on `date`  
-artifacts:
+artifacts:  
     files:
         - '**/*'
-    base-directory: 'browser*'
+    base-directory: 'dist/portafolio-angular/browser*'
     discard-paths: yes
