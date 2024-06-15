@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavComponent } from './nav/nav.component';
-import { FooterComponent } from './footer/footer.component';
-import { PrincipalComponent } from './principal/principal.component';
+import { NavComponent } from './components/nav/nav.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PrincipalComponent } from './components/principal/principal.component';
 
 @Component({
   selector: 'app-root',
@@ -12,5 +12,5 @@ import { PrincipalComponent } from './principal/principal.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'portafolioAngular';
+  
 }
