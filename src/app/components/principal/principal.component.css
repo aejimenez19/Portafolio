@@ -4,9 +4,18 @@
     background-image: linear-gradient(to top left, #3f2182, #13072e);
 }
 
-.conta {
+.presentation {
     width: 90%;
     margin: auto;
+    flex-direction: column;
+}
+
+.cont-img {
+    order: -1;
+}
+
+.img {
+    max-width: 100%;
 }
 
 .title {
@@ -17,18 +26,6 @@
 
 .name {
     color: #B3AAFF;
-}
-
-.cont-text {
-
-}
-
-.cont-img {
-    margin-right: 20px;
-}
-
-.texto-pre {
-    margin-top: 30px;
 }
 
 .buton {
@@ -45,31 +42,51 @@
     color: white;
 }
 
-.img {
-    margin: auto;
-    width: 550px;
-    height: 380px;
+@media (min-width: 900px) {
+    .presentation {
+        flex-direction: row;
+    }
 
+    .cont-text {
+        width: 60%;
+    }
+
+    .cont-img {
+        order: 0;
+        display: flex;
+    }
+
+    .texto-pre {
+        margin-top: 30px;
+    }
+
+    .img {
+        margin: auto;
+        width: 550px;
+        height: 380px;
+    }
 }
-
 
 @media (min-width: 1800px) {
     .cont-text {
         max-width: 1000px;
     }
+
     .title {
-        font-size: 60px;
-    } 
+        font-size: 50px;
+    }
+
     .texto-pre {
-        font-size: 25px;
-    }   
+        font-size: 20px;
+    }
+
     .buton {
         margin-top: 40px;
         background-color: white;
         border-radius: 40px;
         font-size: 20px;
     }
-    
+
     .buton span {
         width: 70px;
         height: 50px;
@@ -77,16 +94,16 @@
         border-radius: 5px;
         color: white;
     }
+
     .cont-img {
         display: flex;
         width: 100%;
     }
-    
+
     .img {
         margin: auto;
-        width: 950px;
-        height: 680px;
-        
+        width: 750px;
+        height: 580px;
     }
 
 }
