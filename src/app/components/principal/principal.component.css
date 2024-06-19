@@ -5,8 +5,6 @@
 }
 
 .presentation {
-    width: 90%;
-    margin: auto;
     flex-direction: column;
 }
 
