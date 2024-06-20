@@ -1,3 +1,42 @@
 .intoCont{
     margin-top: 60px;
 }
+.knowledge{
+
+}
+.knowledge ul {
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    padding: none;
+}
+.knowledge li {
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+}
+
+.knowledge li img {
+    width: 80%;
+}
+@media (min-width: 900px) { 
+    .knowledge ul {
+        flex-direction: row;
+    }
+
+    .knowledge ul li img {
+        width: 70%;
+    }
+
+
+
+}
+
+@media (min-width: 1200px) { 
+    .knowledge ul li img {
+        width: 50%;
+    }
+    .aboutme {
+        max-width: 60%;
+    }
+}
