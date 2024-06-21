@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploys3": "aws s3 sync dist/portafolio-angular/browser s3://nearnova"
   },
   "private": true,
   "dependencies": {
