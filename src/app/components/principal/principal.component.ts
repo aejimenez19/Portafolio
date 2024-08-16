@@ -10,4 +10,13 @@ import { TecnologiasComponent } from '../tecnologias/tecnologias.component';
 })
 export class PrincipalComponent {
 
+
+  downloadPDF() {
+    const link = document.createElement('a');
+    link.href = '/assets/CV.pdf'; 
+    link.download = 'CV-AlvaroJimenez.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
 }

@@ -1,0 +1,14 @@
+<div class="content">
+    @if (img) {
+        <h1 class="project-title">{{titleProject}}</h1>
+        <img src="/assets/{{img}}" alt="Imagen del projecto" class="img-projec">
+    } @else {
+        <h1 class="project-title1">{{titleProject}}</h1>
+    }
+    <p>{{description}} <a href={{url}}>Touch</a>.</p>
+    <app-tecnologias title="Java" />
+    <app-tecnologias title="Spring boot" />
+    <app-tecnologias title="Spring security"/>
+    <app-tecnologias title="Angular"/>
+    <app-tecnologias title="TypeScript"/>
+</div>

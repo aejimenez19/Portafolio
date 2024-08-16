@@ -29,17 +29,26 @@
 }
 
 .buton {
-    margin-top: 40px;
+    margin-top: 5px;
     background-color: white;
     border-radius: 40px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: none;
+    color: #3f2182;
+}
+.buton:hover {
+    cursor: pointer;
+}
+.buton:focus {
+    outline: none;
 }
 
-.buton span {
-    width: 40px;
-    height: 10px;
-    background-color: #13072e;
-    border-radius: 5px;
-    color: white;
+
+.iconDownload {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
 }
 
 @media (min-width: 900px) {
