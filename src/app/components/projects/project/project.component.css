@@ -36,3 +36,11 @@
 .content {
     margin-bottom: 60px;
 }
+
+
+@media (min-width: 900px) {
+    .project-title {
+        font-size: 35px;
+        margin-bottom: -35px;
+    }
+}
