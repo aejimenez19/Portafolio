@@ -12,3 +12,10 @@ h1 {
 span {
     color: #B594FF;
 }
+
+
+@media (min-width: 900px) {
+    h1 {
+        font-size: 34px;
+    }
+}

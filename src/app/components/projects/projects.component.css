@@ -1,0 +1,9 @@
+  @media (min-width: 900px) {
+      .contenedor {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          /* Dos columnas de igual tamaño */
+          gap: 20px;
+          /* Espacio entre las columnas */
+      }
+  }
