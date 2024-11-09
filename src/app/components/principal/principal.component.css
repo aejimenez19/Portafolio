@@ -11,7 +11,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 40px;
+    font-size: 28px;
 }
 .cont-img {
     order: -1;
@@ -80,6 +80,12 @@
         margin: auto;
         width: 480px;
         height: 480px;
+    }
+    .letrainicial {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 40px;
     }
 }
 
