@@ -1,9 +1,12 @@
-<div class="cont">
-    <app-nav class="m-auto" />
-    <app-principal class="m-auto " id="main"/>
-    <app-projects class="m-auto" id="works"/>
-    <app-contacs class="m-auto" id="contact"/>
-
+<section class="background-hero-section vh-100">
+  <app-nav />
+  <div class="hero-section d-flex justify-content-center align-items-center ">
+    <app-hero />
+  </div>
+</section>
+<div class="cont width-container">
+  <!--<app-projects id="works" />-->
+  <app-contacs id="contact" />
 </div>
-<app-footer/>
+<app-footer />
 <router-outlet />

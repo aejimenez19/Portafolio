@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.bg {
-    background-image: linear-gradient(to top left, #3f2182, #13072e);
-}
 
-.presentation {
-    flex-direction: column;
-}
-.letrainicial {
-    font-family: "Poppins", sans-serif;
+.initial-letter {
     font-weight: bold;
     font-style: normal;
-    font-size: 28px;
+    font-size: 40px;
 }
 .cont-img {
     order: -1;
     display: flex;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
 }
 
-.img {
-    max-width: 100%;
-    margin: auto;
+.cont-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
 
 .title {
     font-family: "Poppins", sans-serif;
@@ -29,31 +27,23 @@
     font-style: normal;
 }
 
-.name {
-    color: #B3AAFF;
+.highlight {
+    color: #7db4b5 ;
+}
+.button {
+    background-color: white;
 }
 
-.buton {
-    margin-top: 5px;
-    background-color: white;
-    border-radius: 40px;
-    font-weight: bold;
-    padding: 5px 15px;
-    border: none;
-    color: #3f2182;
-}
-.buton:hover {
-    cursor: pointer;
-}
-.buton:focus {
-    outline: none;
+.button:hover {
+    background-color: #7db4b5;
+    color: white;
 }
 
 
 .iconDownload {
-    width: 24px;
-    height: 24px;
-    margin-left: 5px;
+    width: 18px;
+    height: 18px;
+    margin-top: -3px;
 }
 
 @media (min-width: 900px) {
