@@ -1,5 +1,11 @@
 .cont {
-    width: 90%;
+    width: 95%;
     margin: auto;
-    max-width: 1200px;
+}
+
+.background-hero-section {
+    background: #e0eff1;
+}
+.hero-section {
+    height: calc(100vh - 100px);
 }
