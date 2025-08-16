@@ -8,12 +8,13 @@ import { ProjectsComponent } from "./components/projects/projects.component";
 import { TitleComponent } from './components/utils/title/title.component';
 import { ContacsComponent } from './components/contacs/contacs.component';
 import { TecnologiasComponent } from "./components/tecnologias/tecnologias.component";
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, NavComponent, HeroComponent, FooterComponent, IntroduccionComponent, ProjectsComponent,
-    TitleComponent, ContacsComponent, TecnologiasComponent],
+    TitleComponent, ContacsComponent, TecnologiasComponent, ExperienceComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
