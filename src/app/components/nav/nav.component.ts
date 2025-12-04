@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class NavComponent {
 
+  scrollTo(section: string) {
+    const element = document.getElementById(section);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
 }

@@ -2,19 +2,32 @@
 
 small {
     margin: 0px;
-    font-size: 10px;
+    font-size: 0.75rem;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+    line-height: 1.5;
 }
 
 .content {
     background-color: black;
     color: white;
-    margin-top: 20px;
-    height: 70px;
+    margin-top: 40px;
+    padding: 20px 0;
+    min-height: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding: 25px 0;
+    }
+    
+    small {
+        font-size: 0.85rem;
+    }
 }

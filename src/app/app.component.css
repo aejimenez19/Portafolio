@@ -1,11 +1,33 @@
 .cont {
     width: 95%;
+    max-width: 1200px;
     margin: auto;
+    padding: 2rem 0;
 }
 
 .background-hero-section {
     background: #e0eff1;
+    position: relative;
 }
+
 .hero-section {
     height: calc(100vh - 100px);
+    min-height: 500px;
+    padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .cont {
+        width: 90%;
+        padding: 1.5rem 0;
+    }
+    
+    .hero-section {
+        min-height: 400px;
+        padding: 1rem 0;
+    }
+    
+    .background-hero-section {
+        overflow: visible;
+    }
 }

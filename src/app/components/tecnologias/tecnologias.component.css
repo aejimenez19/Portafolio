@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+
 .tec{
     display: inline-block;
     background: #223969;
@@ -25,9 +26,37 @@
     width: 17px;
     height: 17px;
     margin-top: 3px;
-
 }
 
 .tecnologia {
 
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-body svg {
+    transition: transform 0.3s ease;
+}
+
+.card-body svg:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .row-cols-md-3 {
+        --bs-gutter-y: 1rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
 }

@@ -9,12 +9,13 @@ import { TitleComponent } from './components/utils/title/title.component';
 import { ContacsComponent } from './components/contacs/contacs.component';
 import { TecnologiasComponent } from "./components/tecnologias/tecnologias.component";
 import { ExperienceComponent } from './components/experience/experience.component';
+import { ScrollTopComponent } from './components/utils/scroll-top/scroll-top.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, NavComponent, HeroComponent, FooterComponent, IntroduccionComponent, ProjectsComponent,
-    TitleComponent, ContacsComponent, TecnologiasComponent, ExperienceComponent],
+    TitleComponent, ContacsComponent, TecnologiasComponent, ExperienceComponent, ScrollTopComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

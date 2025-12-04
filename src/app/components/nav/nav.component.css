@@ -1,19 +1,125 @@
+.navbar-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .logo {
     color: #7DB4B5;
     font-family: "Poppins", sans-serif;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    padding: 0.25rem 0;
+}
+
+.logo:hover {
+    color: #5a9a9b;
 }
 
 .color-text {
     color: #7DB4B5;
+    transition: color 0.3s ease;
+}
+
+.nav-link {
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #5a9a9b;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #7DB4B5;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
 }
 
 .btn-menu {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
 }
 
+.btn-menu:hover {
+    transform: scale(1.1);
+}
 
-.buton {
-    background-color: white;
-    border-radius: 40px;
+@media (min-width: 576px) {
+    .navbar {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-wrapper {
+        position: relative;
+        z-index: 1000;
+    }
+    
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: white;
+        z-index: 1001;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-top: 1px solid #e0eff1;
+        margin-top: 0.5rem;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+    
+    .navbar-collapse.collapsing {
+        transition: height 0.35s ease;
+    }
+    
+    .navbar-collapse.show {
+        display: block !important;
+    }
+    
+    .navbar-nav {
+        padding: 1rem 0;
+        margin: 0;
+    }
+    
+    .nav-link {
+        padding: 0.75rem 1.5rem;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .navbar {
+        position: relative;
+    }
 }

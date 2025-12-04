@@ -1,13 +1,15 @@
 <div class="content">
     @if (img) {
         <h1 class="project-title">{{titleProject}}</h1>
-        <img src="./assets/{{img}}" alt="Imagen del projecto" class="img-projec">
+        <img src="./assets/{{img}}" alt="Imagen del proyecto" class="img-projec">
     } @else {
         <h1 class="project-title1">{{titleProject}}</h1>
     }
     <p>{{description}} <a href={{url}} target="_blank" rel="noopener noreferrer">Ir al proyecto</a>.</p>
-    <app-tecnologias title="Spring boot" />
-    <app-tecnologias title="Spring security"/>
-    <app-tecnologias title="Angular"/>
-    <app-tecnologias title="Mysql" />
+    <div class="tech-badges-container">
+        <app-tech-badge title="Spring Boot" />
+        <app-tech-badge title="Spring Security" />
+        <app-tech-badge title="Angular" />
+        <app-tech-badge title="MySQL" />
+    </div>
 </div>

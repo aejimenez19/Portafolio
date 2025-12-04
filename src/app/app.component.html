@@ -1,14 +1,15 @@
-<section class="background-hero-section vh-100">
+<section class="background-hero-section vh-100" id="inicio">
   <app-nav />
-  <div class="hero-section d-flex justify-content-center align-items-center ">
+  <div class="hero-section d-flex justify-content-center align-items-center">
     <app-hero />
   </div>
 </section>
 <div class="cont width-container">
-  <!--<app-projects id="works" />-->
-  <app-tecnologias />
-  <app-experience />
-  <app-contacs id="contact" />
+  <app-tecnologias id="tecnologias" />
+  <app-projects id="proyectos" />
+  <app-experience id="experiencia" />
+  <app-contacs id="contacto" />
 </div>
 <app-footer />
+<app-scroll-top />
 <router-outlet />

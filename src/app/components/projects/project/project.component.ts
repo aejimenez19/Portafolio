@@ -1,10 +1,10 @@
 import { Component, Input } from '@angular/core';
-import { TecnologiasComponent } from '../../tecnologias/tecnologias.component';
+import { TechBadgeComponent } from '../../utils/tech-badge/tech-badge.component';
 
 @Component({
   selector: 'app-project',
   standalone: true,
-  imports: [TecnologiasComponent],
+  imports: [TechBadgeComponent],
   templateUrl: './project.component.html',
   styleUrl: './project.component.css'
 })
