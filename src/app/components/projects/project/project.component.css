@@ -3,12 +3,12 @@
 .project-title {
     position: relative;
     background-color: #B594FF;
-    padding: 8px 15px;
+    padding: 6px 12px;
     width: fit-content;
     border-radius: 15px;
-    margin-bottom: -15px;
+    margin-bottom: -12px;
     z-index: 2;
-    font-size: 1.25rem;
+    font-size: 1rem;       /* reducido */
     font-weight: bold;
     font-family: "Baloo Bhai 2", sans-serif;
     font-optical-sizing: auto;
@@ -17,9 +17,9 @@
 
 .project-title1 {
     background-color: #B594FF;
-    padding: 8px 15px;
+    padding: 6px 12px;
     width: fit-content;
-    font-size: 1.25rem;
+    font-size: 1rem;      /* reducido */
     font-family: "Baloo Bhai 2", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -89,16 +89,14 @@
 
 @media (min-width: 900px) {
     .project-title {
-        font-size: 1.75rem;
-        margin-bottom: -25px;
-        padding: 10px 20px;
+        font-size: 1.25rem;
+        margin-bottom: -22px;
+        padding: 8px 14px;
     }
-    
     .project-title1 {
-        font-size: 1.75rem;
-        padding: 10px 20px;
+        font-size: 1.1rem;
+        padding: 8px 14px;
     }
-    
     .img-projec {
         min-height: 300px;
     }
@@ -106,11 +104,10 @@
 
 @media (min-width: 1200px) {
     .project-title {
-        font-size: 2rem;
-        margin-bottom: -30px;
+        font-size: 1.35rem;
+        margin-bottom: -24px;
     }
-    
     .project-title1 {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 }
