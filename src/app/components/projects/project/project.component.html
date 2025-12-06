@@ -5,11 +5,15 @@
     } @else {
         <h1 class="project-title1">{{titleProject}}</h1>
     }
-    <p>{{description}} <a href={{url}} target="_blank" rel="noopener noreferrer">Ir al proyecto</a>.</p>
+    <p>{{description}}
+      <a href={{url}} target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+      @if (linkCode) {
+        | <a href={{linkCode}} target="_blank" rel="noopener noreferrer">Ver código</a>
+      }
+    </p>
     <div class="tech-badges-container">
-        <app-tech-badge title="Spring Boot" />
-        <app-tech-badge title="Spring Security" />
-        <app-tech-badge title="Angular" />
-        <app-tech-badge title="MySQL" />
+        @for (tech of techs; track tech) {
+            <app-tech-badge [title]="tech" />
+        }
     </div>
 </div>

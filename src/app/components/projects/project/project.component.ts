@@ -11,6 +11,8 @@ import { TechBadgeComponent } from '../../utils/tech-badge/tech-badge.component'
 export class ProjectComponent {
   @Input() titleProject: String = "";
   @Input() description: String = "";
-  @Input() img:String = "";
-  @Input() url:String = "";
+  @Input() img: String = "";
+  @Input() url: String = "";
+  @Input() linkCode: String = "";
+  @Input() techs: string[] = [];
 }
