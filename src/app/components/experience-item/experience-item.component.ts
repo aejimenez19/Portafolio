@@ -3,6 +3,7 @@ import { Experience } from '../../models/experience.interface';
 
 @Component({
   selector: 'app-experience-item',
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="flex flex-col md:flex-row gap-4 md:gap-12">

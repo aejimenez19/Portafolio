@@ -5,6 +5,7 @@ import { Experience } from '../../models/experience.interface';
 
 @Component({
   selector: 'app-experience-section',
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [SectionTitleComponent, ExperienceItemComponent],
   template: `
