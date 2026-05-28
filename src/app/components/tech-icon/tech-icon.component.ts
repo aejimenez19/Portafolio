@@ -3,6 +3,7 @@ import { TechStackItem } from '../../models/tech-stack.interface';
 
 @Component({
   selector: 'app-tech-icon',
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     'class': 'flex flex-col items-center justify-center p-8 border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 aspect-square cursor-default',

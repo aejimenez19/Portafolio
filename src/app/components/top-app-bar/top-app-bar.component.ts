@@ -3,6 +3,7 @@ import { ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'app-top-app-bar',
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <header class="w-full bg-white dark:bg-surface-container border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">

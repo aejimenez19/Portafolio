@@ -5,6 +5,7 @@ import { Project } from '../../models/project.interface';
 
 @Component({
   selector: 'app-projects-section',
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [SectionTitleComponent, ProjectCardComponent],
   template: `

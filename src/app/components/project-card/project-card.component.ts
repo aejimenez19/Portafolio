@@ -3,6 +3,7 @@ import { Project } from '../../models/project.interface';
 
 @Component({
   selector: 'app-project-card',
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <article class="border border-gray-200 dark:border-gray-700 p-margin-md flex flex-col h-full bg-white dark:bg-surface-container transition-colors duration-300 hover:border-black dark:hover:border-white">

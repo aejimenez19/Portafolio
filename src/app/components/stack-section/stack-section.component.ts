@@ -5,6 +5,7 @@ import { TechStackItem } from '../../models/tech-stack.interface';
 
 @Component({
   selector: 'app-stack-section',
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [SectionTitleComponent, TechIconComponent],
   template: `
