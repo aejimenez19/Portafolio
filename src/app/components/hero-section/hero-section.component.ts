@@ -10,7 +10,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
         Backend developer.
       </h1>
       <p class="font-body-lg text-body-lg text-black dark:text-white max-w-2xl">
-        rassionate engineer specializing in robust backend architectures and scalable systems built with <span class="text-black dark:text-white font-bold"> Java and Spring Boot. </span>Dedicated to writing clean, maintainable code and solving complex technical challenges with elegant solutions.      </p>
+        Rassionate engineer specializing in robust backend architectures and scalable systems built with <span class="text-black dark:text-white font-bold"> Java and Spring Boot. </span>Dedicated to writing clean, maintainable code and solving complex technical challenges with elegant solutions.      </p>
       <div class="flex gap-4 mt-8">
         <a class="button-primary font-label-mono text-label-mono" href="#projects">
           VIEW WORK

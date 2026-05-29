@@ -10,7 +10,7 @@ import { ThemeService } from '../../services/theme.service';
       <div class="flex justify-between items-center w-full px-margin-md h-20 max-w-container-max mx-auto">
         <div class="flex flex-col">
           <span class="font-headline-md text-headline-md font-bold tracking-tighter text-black dark:text-white">
-            ALVARO JIMENEZ
+            ALVARO JIMENEZ JACOME
           </span>
           <span class="font-label-mono text-label-mono text-gray-500 dark:text-gray-400 text-xs">
             BACKEND DEVELOPER & SYSTEMS ENGINEER
