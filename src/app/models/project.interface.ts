@@ -5,5 +5,5 @@ export interface Project {
   techs: string[];
   image?: string;
   viewUrl?: string;
-  codeUrl?: string;
+  codeUrl: string;
 }

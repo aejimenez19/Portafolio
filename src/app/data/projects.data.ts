@@ -9,6 +9,6 @@ export const PROJECTS: Project[] = [
     techs: ['Angular', 'Java', 'Spring Boot', 'PostgreSQL', 'JWT', 'Microservices'],
     image: 'assets/GymVirtual.jpg',
     viewUrl: '#',
-    codeUrl: '#',
+    codeUrl: 'https://github.com/aejimenez19/WeekPlanner',
   }
 ];

@@ -24,9 +24,9 @@ import { Project } from '../../models/project.interface';
         <button class="font-label-mono text-label-mono text-black dark:text-white border-b border-black dark:border-white pb-1 hover:opacity-70 transition-opacity">
           VIEW PROJECT
         </button>
-        <button class="font-label-mono text-label-mono text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
+        <a class="font-label-mono text-label-mono text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors" href="{{project().codeUrl}}" target="_Blank">
           CODE
-        </button>
+        </a>
       </div>
     </article>
   `,
@@ -38,4 +38,7 @@ export class ProjectCardComponent {
   project = input.required<Project>();
   viewProject = output<string>();
   viewCode = output<string>();
+
+
+
 }
