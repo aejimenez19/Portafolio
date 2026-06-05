@@ -8,8 +8,8 @@ export const EXPERIENCES: Experience[] = [
     role: 'Professional Development Engineer',
     achievements: [
       'Develop microservices with Java and Spring Boot within a distributed architecture, processing thousands of purchase orders daily between large retail chains and suppliers.',
-      'Diseñé e implementé APIs REST, incorporando paginación y filtros dinámicos para optimizar el acceso y manejo eficiente de datos.',
-      'Optimicé consultas, reduciendo el tiempo de generación de reportes de varios minutos a menos de 3 segundos.',
+      'I designed and implemented REST APIs, incorporating pagination and dynamic filters to optimize access and efficient data handling.',
+      'Optimized queries, reducing report generation time from several minutes to less than 3 seconds.',
     ],
   },
 ];
